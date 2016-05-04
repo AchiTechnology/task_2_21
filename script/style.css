@@ -1,0 +1,17 @@
+ /*清零 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font:12px/18px "MicrosoftYaHei","微软雅黑", "STXihei", "华文细黑", serif;font-weight:normal;}
+img{border:none;}
+ul,li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+div.container{width:100%;height:auto;}
+div.container div.content div.one-main,div.two-main{margin:10px;}
+div.container div.content div.one-main input{border:1px solid #1d73d4;border-radius:5px;padding:5px;}
+div.container div.content div.one-main ul{margin:5px;}
+div.container div.content div.one-main ul li{width:auto;height:25px;display:inline-block;text-align:center;border:1px solid #336363;background:#00A8BA;line-height:25px;padding:0 15px;}
+div.container div.content div.two-main textarea{border-radius:5px;border:1px solid #000;}
+div.container div.content div.two-main button{padding:5px;border-radius:5px;background:none;margin:5px;}
+
