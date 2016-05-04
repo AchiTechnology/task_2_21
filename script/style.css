@@ -10,7 +10,7 @@ a{text-decoration:none;}
 div.container{width:100%;height:auto;}
 div.container div.content div.one-main,div.two-main{margin:10px;}
 div.container div.content div.one-main input{border:1px solid #1d73d4;border-radius:5px;padding:5px;}
-div.container div.content div.one-main div.aa div{display:inline-block;font-size:30px;text-align:center;padding:0 15px;margin:2px 0;margin-right:10px;height:50px;line-height:50px;background-color:#ff0404;color:#ffffff;}
+div.container div.content div.divList div{display:inline-block;font-size:30px;text-align:center;padding:0 15px;margin:2px 0;margin-right:10px;height:50px;line-height:50px;background-color:#ff0404;color:#ffffff;}
 div.container div.content div.two-main textarea{border-radius:5px;border:1px solid #000;}
 div.container div.content div.two-main button{padding:5px;border-radius:5px;background:none;margin:5px;}
 
