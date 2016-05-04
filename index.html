@@ -3,27 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>IFE task 21 </title>
+	<script type="text/javascript" src="script/style.js"></script>
 	<link rel="stylesheet" type="text/css" href="script/style.css">
+	
+
 </head>
 <body>
 <div class="container">
 	<div class="content">
 		<div class="one-main">
 			<label for="inputTag">Tag：</label>
-			<input type="text" id="inputTag" placeholder="输入标签">
-			<ul id="hobby">
+			<input type="text" id="tag-input" placeholder="输入标签">
+			<div id="tag-container" class="aa">
 				
-			</ul>
+			</div>
 
 		</div>
 		
 		<div class="two-main">
-			<textarea name="textarea" id="textarea" cols="40" rows="8" placeholder="输入内容通过回车、逗号、顿号等符号作为间隔"></textarea>
+			<textarea name="textarea" id="hobby-input" cols="40" rows="8" placeholder="输入内容通过回车、逗号、顿号等符号作为间隔"></textarea>
 			<br>
-			<button id="hobbybtn">确认兴趣爱好</button>
-			<ul id="hobby">
+			<button id="hobby-submit" >确认兴趣爱好</button>
+			<div id="hobby-container">
 				
-			</ul>
+			</div>
 		</div>
 
 	</div>
@@ -31,6 +34,5 @@
 </div>
 
 	
-<script type="text/javascript" src="script/style.js"></script>
 </body>
 </html>
